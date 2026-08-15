@@ -37,6 +37,9 @@ public class LoginTest {
     @Test(groups = "smoke")
     public void logout() {
     }
+    @Test(groups = "smoke")
+    public void logouts() {
+    }
 
     @Test(groups = "regression")
     public void payment() {
