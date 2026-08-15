@@ -7,12 +7,12 @@
 
     <test name="Smoke Tests">
 
-<!--        <groups>-->
-<!--            <run>-->
-<!--                <include name="smoke"/>-->
-<!--                <include name="regression"/>-->
-<!--            </run>-->
-<!--        </groups>-->
+        <groups>
+            <run>
+                <include name="smoke"/>
+                <include name="regression"/>
+            </run>
+        </groups>
 
         <classes>
             <class name="execution.LoginTest"/>
