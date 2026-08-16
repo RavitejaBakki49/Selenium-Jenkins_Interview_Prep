@@ -28,7 +28,7 @@ public class LoginTest {
         Assert.assertEquals(actual, expected);
     }
 
-
+<!--Added code to publish HTML reports in Jenkins-->
 
     @Test(groups = "smoke")
     public void login() {
