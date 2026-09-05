@@ -4,7 +4,7 @@ agent any
     stages {
           stage('Build') {
                 steps {
-                    echo 'Building project'
+                     bat 'mvn clean install'
                 }
             }
     }
