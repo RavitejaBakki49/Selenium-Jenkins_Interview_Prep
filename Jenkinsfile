@@ -18,6 +18,7 @@ pipeline {
                 bat 'mvn test'
             }
         }
+    }
           post {
         always {
             echo 'Pipeline execution completed'
