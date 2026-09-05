@@ -27,7 +27,7 @@ public class LoginPage {
 
         driver.get("https://the-internet.herokuapp.com/login");
         driver.findElement(username).sendKeys("tomsmith");
-        driver.findElement(password).sendKeys("SuperSecretPasswords!");
+        driver.findElement(password).sendKeys("SuperSecretPassword!");
         driver.findElement(submit).click();
     }
     public void verify(){
