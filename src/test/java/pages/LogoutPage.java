@@ -30,7 +30,9 @@ public class LogoutPage {
         driver.findElement(password).sendKeys("SuperSecretPassword!");
         driver.findElement(submit).click();
     }
-    public void verify(){
+    public void verify() throws InterruptedException {
+
+        Thread.sleep(2000);
 
         driver.findElement(display).isDisplayed();
     }
