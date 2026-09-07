@@ -4,8 +4,8 @@ pipeline {
     tools {
         jdk 'JDK-22'
     }
-   triggers {
-    pollSCM('H/5 * * * *')
+triggers {
+    githubPush()
 }
 
     stages {
