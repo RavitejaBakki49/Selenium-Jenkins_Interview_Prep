@@ -5,7 +5,7 @@ pipeline {
         jdk 'JDK-22'
     }
     triggers {
-    cron('37 11 * * *')
+    cron('45 11 * * *')
 }
 
     stages {
