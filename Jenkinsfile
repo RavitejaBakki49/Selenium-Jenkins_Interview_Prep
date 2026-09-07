@@ -5,7 +5,7 @@ pipeline {
         jdk 'JDK-22'
     }
     triggers {
-    cron('45 11 * * *')
+    pollSCM('H/5 * * * *')
 }
 
     stages {
