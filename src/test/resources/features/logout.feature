@@ -1,7 +1,7 @@
 Feature: Logout Feature Functionality
   Hi here we are testing logout functionality
 
-
+#hi hello
   Scenario: Login with valid credentials
     Given the browser is launcheds
     When the testing URL opens and we enter username and passwords
