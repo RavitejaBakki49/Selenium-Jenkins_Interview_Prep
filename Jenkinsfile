@@ -4,7 +4,7 @@ pipeline {
     tools {
         jdk 'JDK-22'
     }
-    triggers {
+   triggers {
     pollSCM('H/5 * * * *')
 }
 
